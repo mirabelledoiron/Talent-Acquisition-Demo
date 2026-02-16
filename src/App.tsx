@@ -31,8 +31,10 @@ const App = () => (
           <Route path="/case-study" element={<CaseStudy />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-        <div className="mx-auto max-w-5xl px-6">
-          <Footer />
+        <div className="border-t border-border bg-background">
+          <div className="mx-auto max-w-5xl px-6">
+            <Footer />
+          </div>
         </div>
       </BrowserRouter>
     </TooltipProvider>
