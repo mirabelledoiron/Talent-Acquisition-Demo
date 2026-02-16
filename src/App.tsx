@@ -31,7 +31,9 @@ const App = () => (
           <Route path="/case-study" element={<CaseStudy />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-        <Footer />
+        <div className="mx-auto max-w-5xl px-6">
+          <Footer />
+        </div>
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
