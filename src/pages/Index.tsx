@@ -1,4 +1,5 @@
 import { motion, useReducedMotion } from "motion/react";
+import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import TopNav from "@/components/TopNav";
 import Footer from "@/components/Footer";
@@ -71,9 +72,10 @@ const Index = () => {
         <div className="mt-10">
           <Link
             to="/case-study"
-            className="text-sm text-muted-foreground underline underline-offset-4 hover:text-foreground transition-colors"
+            className="inline-flex items-center gap-2 rounded-lg bg-secondary px-4 py-2 text-sm text-foreground transition-colors hover:bg-secondary/80"
           >
-            Read the case study →
+            Read the case study
+            <ArrowRight className="h-4 w-4" />
           </Link>
         </div>
 
