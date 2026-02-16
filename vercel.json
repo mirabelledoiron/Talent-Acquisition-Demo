@@ -37,7 +37,16 @@
       ]
     },
     {
-      "source": "/(favicon.*|.*\\.png|.*\\.jpg|.*\\.jpeg|.*\\.svg|.*\\.ico)",
+      "source": "/(favicon.*|apple-touch-icon.*|android-chrome-.*|mstile-.*|browserconfig\\.xml|site\\.webmanifest)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
+    },
+    {
+      "source": "/(.*\\.png|.*\\.jpg|.*\\.jpeg|.*\\.svg|.*\\.ico)",
       "headers": [
         {
           "key": "Cache-Control",
