@@ -1,7 +1,6 @@
 import { motion, useReducedMotion } from "motion/react";
 import { Database, Bot, Megaphone, TrendingUp } from "lucide-react";
 import TopNav from "@/components/TopNav";
-import Footer from "@/components/Footer";
 import { useNavigate } from "react-router-dom";
 
 const headline = "Turn Employer Signals Into Qualified Applicants".split(" ");
@@ -102,9 +101,6 @@ const WorkflowHero = () => {
           ))}
         </div>
       </section>
-      <div className="mx-auto max-w-5xl px-6">
-        <Footer />
-      </div>
     </div>
   );
 };

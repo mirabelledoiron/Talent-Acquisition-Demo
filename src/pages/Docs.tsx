@@ -1,6 +1,5 @@
 import { motion, useReducedMotion } from "motion/react";
 import TopNav from "@/components/TopNav";
-import Footer from "@/components/Footer";
 import { Database, Bot, Megaphone, TrendingUp, Code2, Layers, Zap, Eye } from "lucide-react";
 
 const techStack = [
@@ -197,8 +196,6 @@ const Docs = () => {
             </p>
           </div>
         </Section>
-
-        <Footer />
       </main>
     </div>
   );

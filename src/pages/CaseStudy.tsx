@@ -1,7 +1,6 @@
 import { motion, useReducedMotion } from "motion/react";
 import { Code2, Palette, Accessibility, Layers, ArrowUpRight } from "lucide-react";
 import TopNav from "@/components/TopNav";
-import Footer from "@/components/Footer";
 
 const stats = [
   { value: "5+", label: "Motion Patterns" },
@@ -187,8 +186,6 @@ const CaseStudy = () => {
             </motion.div>
           ))}
         </div>
-
-        <Footer />
       </div>
     </div>
   );

@@ -2,7 +2,6 @@ import { motion, useReducedMotion } from "motion/react";
 import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import TopNav from "@/components/TopNav";
-import Footer from "@/components/Footer";
 
 const Index = () => {
   const shouldReduceMotion = useReducedMotion();
@@ -68,7 +67,6 @@ const Index = () => {
             </Link>
           </motion.div>
         </div>
-        <Footer />
       </main>
     </div>
   );

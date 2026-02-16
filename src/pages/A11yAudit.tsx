@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { motion, useReducedMotion } from "motion/react";
 import TopNav from "@/components/TopNav";
-import Footer from "@/components/Footer";
 import { Check, X, AlertTriangle, Eye, Ear, Hand, Monitor, Zap, Shield, Info } from "lucide-react";
 
 type ScoreLevel = "pass" | "warn" | "fail";
@@ -166,7 +165,17 @@ const A11yAudit = () => {
           <p className="mb-12 text-muted-foreground">
             How animations affect accessibility — and what this demo does about it.
             <br />
-            <span className="text-sm">Built by Mirabelle Doiron</span>
+            <span className="text-sm">
+              Built by{" "}
+              <a
+                href="https://www.mirabelledoiron.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline underline-offset-2 hover:text-primary transition-colors"
+              >
+                Mirabelle Doiron
+              </a>
+            </span>
           </p>
         </motion.div>
 
@@ -362,7 +371,6 @@ const MyComponent = () => {
           </div>
         </Section>
 
-        <Footer />
       </main>
     </div>
   );

@@ -1,7 +1,6 @@
 import { useRef } from "react";
 import { motion, useScroll, useTransform, useReducedMotion } from "motion/react";
 import TopNav from "@/components/TopNav";
-import Footer from "@/components/Footer";
 import { Palette, Component, Layers, Rocket } from "lucide-react";
 
 /* ── Section data ──────────────────────────────────── */
@@ -317,8 +316,6 @@ const DesignSystem = () => {
             <RevealSection key={layer.title} layer={layer} index={i} />
           ))}
         </div>
-
-        <Footer />
       </main>
     </div>
   );

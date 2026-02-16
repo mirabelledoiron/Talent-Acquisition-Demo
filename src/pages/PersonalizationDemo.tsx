@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { motion, AnimatePresence, useReducedMotion } from "motion/react";
 import TopNav from "@/components/TopNav";
-import Footer from "@/components/Footer";
 
 type SegmentKey = "new" | "returning" | "highValue";
 
@@ -163,9 +162,6 @@ const PersonalizationDemo = () => {
           </AnimatePresence>
         </div>
       </motion.div>
-      <div className="mx-auto max-w-3xl px-6">
-        <Footer />
-      </div>
     </div>
   );
 };
