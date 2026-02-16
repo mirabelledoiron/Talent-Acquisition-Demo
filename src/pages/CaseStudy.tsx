@@ -54,6 +54,7 @@ const CaseStudy = () => {
     <div className="min-h-screen bg-background">
       <TopNav />
 
+      <div className="page-tint min-h-screen">
       {/* Hero */}
       <section className="flex flex-col items-center justify-center px-6 pt-32 pb-20">
         <motion.span
@@ -186,6 +187,7 @@ const CaseStudy = () => {
             </motion.div>
           ))}
         </div>
+      </div>
       </div>
     </div>
   );

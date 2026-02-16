@@ -153,6 +153,7 @@ const A11yAudit = () => {
     <div className="min-h-screen bg-background">
       <TopNav />
 
+      <div className="page-tint min-h-screen">
       <main className="mx-auto max-w-3xl px-6 pb-24 pt-24">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -372,6 +373,7 @@ const MyComponent = () => {
         </Section>
 
       </main>
+      </div>
     </div>
   );
 };

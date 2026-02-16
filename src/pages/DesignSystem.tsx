@@ -293,6 +293,7 @@ const DesignSystem = () => {
         style={{ scaleX }}
       />
 
+      <div className="page-tint min-h-screen">
       <main className="mx-auto max-w-4xl px-6 pb-24 pt-24">
         {/* Hero */}
         <motion.div
@@ -317,6 +318,7 @@ const DesignSystem = () => {
           ))}
         </div>
       </main>
+      </div>
     </div>
   );
 };

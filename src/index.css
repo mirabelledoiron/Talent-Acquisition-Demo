@@ -107,6 +107,10 @@
 }
 
 @layer utilities {
+  .page-tint {
+    background-color: hsl(var(--accent) / 0.05);
+  }
+
   .glow-amber {
     box-shadow: 0 0 20px hsl(var(--primary) / 0.25), 0 0 60px hsl(var(--primary) / 0.08);
   }
