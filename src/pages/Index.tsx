@@ -24,11 +24,42 @@ const Index = () => {
           <p className="max-w-2xl text-muted-foreground">
             An original, custom mock built to demonstrate employer-side (B2B) product experience — motion engineering,
             interaction patterns, and accessibility.
+            <span className="block mt-2 text-sm">
+              Built using the <a
+                href="https://www.atelierdesignsystem.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline underline-offset-2 hover:text-primary transition-colors"
+              >
+                Atelier Design System
+              </a>{" "}
+              to follow the same workflow this demo is designed for.
+            </span>
             <span className="block text-sm mt-2">
               No proprietary code, designs, or assets.
             </span>
           </p>
         </motion.div>
+
+        <div className="mb-10 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-muted-foreground">
+          <a
+            href="https://www.atelierdesignsystem.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline underline-offset-2 hover:text-primary transition-colors"
+          >
+            Atelier Design System
+          </a>
+          <span aria-hidden className="text-muted-foreground/60">•</span>
+          <a
+            href="https://storybook.atelierdesignsystem.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline underline-offset-2 hover:text-primary transition-colors"
+          >
+            Storybook
+          </a>
+        </div>
 
         <div className="grid gap-4 sm:grid-cols-2">
           <motion.div
