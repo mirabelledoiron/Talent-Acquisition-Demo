@@ -68,17 +68,6 @@ const Index = () => {
             </Link>
           </motion.div>
         </div>
-
-        <div className="mt-10">
-          <Link
-            to="/case-study"
-            className="inline-flex items-center gap-2 rounded-lg bg-secondary px-4 py-2 text-sm text-foreground transition-colors hover:bg-secondary/80"
-          >
-            Read the case study
-            <ArrowRight className="h-4 w-4" />
-          </Link>
-        </div>
-
         <Footer />
       </main>
     </div>
